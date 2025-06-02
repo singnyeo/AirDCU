@@ -45,33 +45,3 @@ img {
   width: 80px; /* 원하는 너비 설정 */
   height: 80px; /* 자동으로 높이 조정 */
 }
-
-.guide-table td {
-  text-align: center;
-  border: 2px solid #ddd;
-}
-
-.cell-blue {
-  background-color: blue;
-  border: 2px solid #ddd;
-  padding: 10px;
-  text-align: center;
-}
-.cell-green {
-  background-color: green;
-  border: 2px solid #ddd;
-  padding: 10px;
-  text-align: center;
-}
-.cell-yellow {
-  background-color: yellow;
-  border: 2px solid #ddd;
-  padding: 10px;
-  text-align: center;
-}
-.cell-red {
-  background-color: red;
-  border: 2px solid #ddd;
-  padding: 10px;
-  text-align: center;
-}
