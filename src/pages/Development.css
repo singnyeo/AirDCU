@@ -1,0 +1,52 @@
+.nowairdata-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  
+  .tabs {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  .tab {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #e0e0e0;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background-color: #ccc;
+    color: #fff;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .nowairdata-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .nowairdata-table th,
+  .nowairdata-table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .nowairdata-table th {
+    background-color: #f1f1f1;
+  }
+  

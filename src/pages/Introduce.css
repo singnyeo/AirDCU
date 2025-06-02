@@ -1,0 +1,36 @@
+.nowairdata-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #f1f1f1; */
+  padding: 20px;
+  width: 150px;
+}
+
+.tab {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  /* background-color: #e0e0e0;
+  color: #333; */
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: black;
+  color: black;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}

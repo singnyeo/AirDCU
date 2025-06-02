@@ -1,0 +1,75 @@
+/* NowAirData.css */
+
+.tab-buttons {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  color: #555555;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.tab-button:last-child {
+  margin-right: 0;
+}
+
+.tab-button:hover {
+  background-color: #e0e0e0;
+}
+
+.tab-button.active {
+  background-color: #555555;
+  color: #ffffff;
+}
+
+.nowairdata-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.nowairdata-table th {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #dddddd;
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.nowairdata-table th:first-child {
+  border-left: none;
+}
+
+.nowairdata-table th:last-child {
+  border-right: none;
+}
+
+.nowairdata-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #dddddd;
+}
+
+.nowairdata-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.nowairdata-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.nowairdata-table tbody tr:hover {
+  background-color: #e0e0e0;
+}
+

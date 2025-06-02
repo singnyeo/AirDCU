@@ -1,0 +1,53 @@
+.nowairdata-container {
+  margin: 20px;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tab {
+  padding: 10px 15px;
+  background-color: #f2f2f2;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: gray;
+  border-bottom-color: #222222;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #dddddd;
+}
+
+.styled-table th {
+  background-color: #f2f2f2;
+}
+
+.styled-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.styled-table tr:hover {
+  background-color: #e5e5e5;
+}
+
+h2 {
+  margin-top: 30px;
+}
